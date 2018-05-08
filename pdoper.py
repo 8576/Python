@@ -9,3 +9,10 @@ print(pd.concat([df1, df2]))
 
 # pandas 修改列名称
 a.rename(columns={'A':'a', 'B':'b', 'C':'c'}, inplace = True)
+
+
+mpl.rcParams['font.sans-serif']=[u'simHei']
+mpl.rcParams['axes.unicode_minus']=False
+## 拦截异常
+warnings.filterwarnings(action = 'ignore', category=ConvergenceWarning)
+
