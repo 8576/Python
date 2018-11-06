@@ -16,3 +16,13 @@ mpl.rcParams['axes.unicode_minus']=False
 ## 拦截异常
 warnings.filterwarnings(action = 'ignore', category=ConvergenceWarning)
 
+
+
+
+# pandas 行删除
+
+df.drop('row_index')
+
+# pandas 列删除
+df.pop('columns_name')
+
